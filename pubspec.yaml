@@ -1,0 +1,83 @@
+name: orbital
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  imageview360: ^1.3.0
+  asset_cache: ^2.0.0
+  image_pixels: ^3.0.0
+  hexcolor: ^2.0.7
+  image: ^3.2.0
+  asset_fill: ^1.0.1
+  percent_indicator: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/resources/
+    - assets/floors/pedestrian/renders/
+    - assets/floors/r1/highlights/
+    - assets/floors/r1/masks/
+    - assets/floors/r1/plans/
+    - assets/floors/r1/renders/
+    - assets/floors/r2/highlights/
+    - assets/floors/r2/masks/
+    - assets/floors/r2/plans/
+    - assets/floors/r2/renders/
+    - assets/floors/r3/highlights/
+    - assets/floors/r3/masks/
+    - assets/floors/r3/plans/
+    - assets/floors/r3/renders/
+    - assets/floors/r4/highlights/
+    - assets/floors/r4/masks/
+    - assets/floors/r4/plans/
+    - assets/floors/r4/renders/
+    - assets/floors/rdc/highlights/
+    - assets/floors/rdc/masks/
+    - assets/floors/rdc/plans/
+    - assets/floors/rdc/renders/
+    - assets/floors/roof/renders/
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
